@@ -1,0 +1,23 @@
+body {
+  background-color: #980202;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.bg-warning {
+  background-color: chartreuse;
+  color: black;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.m-1 {
+  margin: 10px;
+}
