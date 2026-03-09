@@ -1,0 +1,68 @@
+/* hp max-widh: 600px */
+
+body {
+  background-color: blue;
+}
+
+.row {
+  clear: both;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* tablet min-widh: 600px */
+@media screen and (min-width: 600px) {
+  /* elemen selector body  */
+  body {
+    background-color: green;
+  }
+
+  /* class selector  */
+  .col-md-50 {
+    width: 50%;
+    float: left;
+  }
+
+  .col-md-100 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/* dekstop min-widh: 992px */
+@media screen and (min-width: 992px) {
+  /* elemen selector body  */
+  body {
+    background-color: red;
+  }
+
+  /* class selector  */
+  .col-lg-25 {
+    width: 25%;
+    float: left;
+  }
+
+  .col-lg-50 {
+    width: 50%;
+    float: left;
+  }
+}
+
+.txt-center {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-warning {
+  background-color: chartreuse;
+  color: black;
+}
